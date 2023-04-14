@@ -1,0 +1,30 @@
+name="karan kumar mishra";
+print(name[3],end=" ")
+#
+print(name[0:5])
+#
+print(len(name))
+#
+print(name[0:50])
+#
+print(name[0:50:2])
+#
+print(name[-4:-2])
+#
+print(name[::-2])
+#
+print(name[::2])
+#
+print(name[::-1]);
+#
+print(type(name))
+#
+print(name.isalnum())
+print(name.isalpha())
+print(name.endswith("kumar"))
+print(name.count("k"))
+print(name.capitalize())
+print(name.find("kumar"))
+print(name.lower())
+print(name.upper())
+print(name.replace("karan","zack"))
